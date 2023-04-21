@@ -21,7 +21,7 @@ ul, a {
 header {
     position: fixed;
     width: 100%;
-    height: 200px;
+    height: 170px;
     z-index: 1;
 }
 
@@ -73,3 +73,72 @@ ul,a {
     width: 35px;
     height: 35px;
 }
+
+/* section1 */
+
+.About-the-site-container {
+    padding-top: 170px; 
+}
+
+.background-photo-box {
+    position: relative;
+    max-width: 1555px;
+    margin: 0 auto;
+}
+
+.background-photo-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.site-title-box {
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+}
+
+.site-title-box h1 {
+    font-size: 80px;
+    font-family: 'Solitreo', cursive;
+    color: rgba(128, 80, 80, 1);
+}
+
+.site-title-box p {
+    font-size: 35px;
+    color: rgba(128, 80, 80, 1);
+}
+
+.About-the-site-button {
+    bottom: 20%;
+    left: 40%;
+    position: absolute;
+}
+
+.About-the-site-button button {
+    width: 250px;
+    height: 90px;
+    font-size: 22px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.arrows-box {
+    display: flex;
+    position: absolute;
+    bottom: 46%;
+    gap: 1398px;
+}
+
+.left-arrow img {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+.right-arrow img {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+
