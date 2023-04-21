@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul, a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    z-index: 1;
+}
+
+.header-box {
+    padding-top: 50px;
+    display: flex;
+}
+
+.logos-box img{
+    width: 40px;
+    height: 40px;
+}
+
+.logos-box a {
+    vertical-align: middle;
+    color: black;
+    font-family: 'Solitreo', cursive;
+    font-size: 25px;
+}
+
+nav {
+    line-height: 50px;
+    flex: 1;
+    text-align: right;
+    padding-left: 42%;
+}
+
+ul {
+    display: flex;
+}
+
+ul,a {
+    color: black;
+    gap: 30px;
+    font-size: 18px;  
+}
+
+.icons-box {
+    display: flex;
+    gap: 20px;
+}
+
+.search-icon-container img {
+    width: 30px;
+    height: 30px;
+}
+
+.bag-icon-container img {
+    width: 35px;
+    height: 35px;
+}
