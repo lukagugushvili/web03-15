@@ -141,4 +141,67 @@ ul,a {
     background-color: white;
 }
 
+/* section2 */
+
+.Design-history-box {
+    padding-top: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.Design-history-title h2 {
+    font-size: 70px;
+    font-family: 'Solitreo', cursive;
+    color: rgba(150, 101, 101, 1);
+}
+
+.Design-history-title p {
+    width: 350px;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.Design-history-img-box {
+    position: relative;
+    width: 627px;
+    height: 421px;
+}
+
+.Design-history-img-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 77px;
+}
+
+.Design-history-box-rows {
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    gap: 84px;
+}
+
+.rows img {
+    width: 211px;
+    height: 200px;
+    border-radius: 77px;
+}
+
+.rows h2 {
+    font-size: 35px;
+    font-family: 'Solitreo', cursive;
+    color: rgba(150, 101, 101, 1);
+    padding-top: 30px;
+    text-align: center;
+}
+
+.rows p {
+    width: 200px;
+    font-size: 18px;
+    padding-top: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
 
