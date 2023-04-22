@@ -221,15 +221,15 @@ ul,a {
     line-height: 60px;
 }
 
-.percentages-paragraph,p {
+.percentages-paragraph {
     display: flex;
-    gap: 70%;
     font-size: 40px;
     padding-left: 40px;
     padding-bottom: 3px;
 }
 
 .percentages-paragraph span {
+    padding-left: 70%;
     color: rgba(150, 101, 101, 1);
 }
 
@@ -279,4 +279,54 @@ ul,a {
     width: 550px;
     font-size: 40px;
     padding-left: 210px;
+}
+
+/* section4 */
+
+.Internal-interior {
+    padding-top: 100px;
+}
+
+.Internal-interior-container {
+    width: 100%;
+    
+}
+
+.Internal-interior-row {
+    display: flex;
+    width: 100%;
+    height: 294px;
+    margin-top: 30px;
+    background-color: #F8F8F8;
+}
+
+.Internal-interior-row img {
+    width: 50%;
+    height: 294px;
+    transform: translatex(170px);
+}
+
+.rooms-title {
+    padding-top: 30px;
+    padding-left: 100px;
+    line-height: 50px;
+}
+
+.rooms-title h2 {
+    font-size: 50px;
+    font-family: 'Solitreo', cursive;
+    color: rgba(150, 101, 101, 1);
+}
+
+.rooms-title p {
+    font-size: 22px;
+}
+
+.click-it {
+    padding-top: 10px;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    border: 1px solid #956464;
+    background-color:  #707070;
 }
